@@ -5,7 +5,7 @@ A total of six specified operations have been implemented in the cloud instance.
 Kindly follow the input format as provided in the sample scenarios in the assessment document in https://gist.github.com/winston/51d26e4587b5e0bbf03fcad558111c08
 * For first three opertaions,'keys' in the JSON input request are not enclosed in quotes. for example: email : 'abc@xyz.com'       Hence, they are handled as string in the code.
 * For the last three operations,'keys' in the JSON input request are enclosed in quotes. for example: "email" : 'abc@xyz.com'.
-  Hence, the JSon is converted to Map and handled.
+  Hence, the JSON is converted to Map and handled.
 
 1. As a user, I need an API to create a friend connection between two email addresses.
    * The operation is avilable at http://104.238.128.7:8080/makeFriends
